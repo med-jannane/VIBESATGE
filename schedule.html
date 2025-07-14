@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme - VibeStage 2025</title>
+    <meta name="description" content="Programme complet de VibeStage 2025 - Planning jour par jour avec tous les artistes et horaires.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Anton&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/image copy 16.png" alt="VibeStage" class="logo-img">
+                    <span class="logo-text">VibeStage</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="artists.html" class="nav-link">Line-Up</a></li>
+                    <li><a href="schedule.html" class="nav-link active">Programme</a></li>
+                    <li><a href="tickets.html" class="nav-link">Billets</a></li>
+                    <li><a href="experience.html" class="nav-link">Expérience</a></li>
+                    <li><a href="location.html" class="nav-link">Lieu</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-cta">
+                    <a href="tickets.html" class="btn btn-primary">Acheter Billet</a>
+                </div>
+                
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 60vh;">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="title-main">Programme 2025</span>
+                    <span class="title-sub">3 jours de musique non-stop</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Découvrez le planning complet jour par jour
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Day Navigation -->
+    <section class="day-nav" style="padding: 2rem 0; background: var(--dark-grey);">
+        <div class="container">
+            <div class="day-buttons">
+                <button class="day-btn active" data-day="friday">Vendredi 22 Août</button>
+                <button class="day-btn" data-day="saturday">Samedi 23 Août</button>
+                <button class="day-btn" data-day="sunday">Dimanche 24 Août</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule-section" style="padding: 4rem 0;">
+        <div class="container">
+            <!-- Vendredi -->
+            <div class="day-schedule active" id="friday">
+                <h2 class="day-title">Vendredi 22 Août 2025</h2>
+                
+                <div class="stages-grid">
+                    <!-- Main Stage -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Main Stage</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">18:00</div>
+                                <div class="artist-info">
+                                    <h4>Ouverture des portes</h4>
+                                    <p>Accueil des festivaliers</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">19:00</div>
+                                <div class="artist-info">
+                                    <h4>Warm-up DJ</h4>
+                                    <p>Ambiance électro</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">20:30</div>
+                                <div class="artist-info">
+                                    <h4>Justice</h4>
+                                    <p>Electro / French Touch</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item headliner">
+                                <div class="time">22:00</div>
+                                <div class="artist-info">
+                                    <h4>DJ Snake</h4>
+                                    <p>Electro / Trap</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">00:00</div>
+                                <div class="artist-info">
+                                    <h4>Gesaffelstein</h4>
+                                    <p>Electro / Industrial</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">02:00</div>
+                                <div class="artist-info">
+                                    <h4>Charlotte de Witte</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">04:00</div>
+                                <div class="artist-info">
+                                    <h4>Closing DJ</h4>
+                                    <p>Ambiance chill</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Electro Dome -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Electro Dome</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">19:30</div>
+                                <div class="artist-info">
+                                    <h4>Local DJ</h4>
+                                    <p>Techno marocaine</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">21:00</div>
+                                <div class="artist-info">
+                                    <h4>Nina Kraviz</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">23:00</div>
+                                <div class="artist-info">
+                                    <h4>Adam Beyer</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">01:00</div>
+                                <div class="artist-info">
+                                    <h4>Amelie Lens</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">03:00</div>
+                                <div class="artist-info">
+                                    <h4>Local Techno</h4>
+                                    <p>Underground</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Acoustic Garden -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Acoustic Garden</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">19:00</div>
+                                <div class="artist-info">
+                                    <h4>Maalem Hmida Boussou</h4>
+                                    <p>Gnaoua</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">21:00</div>
+                                <div class="artist-info">
+                                    <h4>Maalem Mahmoud Guinia</h4>
+                                    <p>Gnaoua</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">23:00</div>
+                                <div class="artist-info">
+                                    <h4>Fusion Band</h4>
+                                    <p>Gnaoua Fusion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Samedi -->
+            <div class="day-schedule" id="saturday">
+                <h2 class="day-title">Samedi 23 Août 2025</h2>
+                
+                <div class="stages-grid">
+                    <!-- Main Stage -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Main Stage</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">18:00</div>
+                                <div class="artist-info">
+                                    <h4>Ouverture des portes</h4>
+                                    <p>Accueil des festivaliers</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">19:00</div>
+                                <div class="artist-info">
+                                    <h4>Warm-up DJ</h4>
+                                    <p>Ambiance électro</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">20:30</div>
+                                <div class="artist-info">
+                                    <h4>Marshmello</h4>
+                                    <p>Trap / Future Bass</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item headliner">
+                                <div class="time">22:00</div>
+                                <div class="artist-info">
+                                    <h4>Amelie Lens</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">00:00</div>
+                                <div class="artist-info">
+                                    <h4>Charlotte de Witte</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">02:00</div>
+                                <div class="artist-info">
+                                    <h4>Skrillex</h4>
+                                    <p>Trap / Dubstep</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">04:00</div>
+                                <div class="artist-info">
+                                    <h4>Closing DJ</h4>
+                                    <p>Ambiance chill</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Electro Dome -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Electro Dome</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">19:30</div>
+                                <div class="artist-info">
+                                    <h4>Local DJ</h4>
+                                    <p>Techno marocaine</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">21:00</div>
+                                <div class="artist-info">
+                                    <h4>Nina Kraviz</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">23:00</div>
+                                <div class="artist-info">
+                                    <h4>Adam Beyer</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">01:00</div>
+                                <div class="artist-info">
+                                    <h4>Charlotte de Witte</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">03:00</div>
+                                <div class="artist-info">
+                                    <h4>Local Techno</h4>
+                                    <p>Underground</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Acoustic Garden -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Acoustic Garden</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">19:00</div>
+                                <div class="artist-info">
+                                    <h4>Maalem Hmida Boussou</h4>
+                                    <p>Gnaoua</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">21:00</div>
+                                <div class="artist-info">
+                                    <h4>Maalem Mahmoud Guinia</h4>
+                                    <p>Gnaoua</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">23:00</div>
+                                <div class="artist-info">
+                                    <h4>Fusion Band</h4>
+                                    <p>Gnaoua Fusion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dimanche -->
+            <div class="day-schedule" id="sunday">
+                <h2 class="day-title">Dimanche 24 Août 2025</h2>
+                
+                <div class="stages-grid">
+                    <!-- Main Stage -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Main Stage</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">18:00</div>
+                                <div class="artist-info">
+                                    <h4>Ouverture des portes</h4>
+                                    <p>Accueil des festivaliers</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">19:00</div>
+                                <div class="artist-info">
+                                    <h4>Warm-up DJ</h4>
+                                    <p>Ambiance électro</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">20:00</div>
+                                <div class="artist-info">
+                                    <h4>Hamid El Kasri</h4>
+                                    <p>Gnaoua Fusion</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item headliner">
+                                <div class="time">22:00</div>
+                                <div class="artist-info">
+                                    <h4>Marshmello</h4>
+                                    <p>Trap / Future Bass</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">00:00</div>
+                                <div class="artist-info">
+                                    <h4>Skrillex</h4>
+                                    <p>Trap / Dubstep</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">02:00</div>
+                                <div class="artist-info">
+                                    <h4>DJ Snake</h4>
+                                    <p>Electro / Trap</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">04:00</div>
+                                <div class="artist-info">
+                                    <h4>Closing Ceremony</h4>
+                                    <p>Final en beauté</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Electro Dome -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Electro Dome</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">19:30</div>
+                                <div class="artist-info">
+                                    <h4>Local DJ</h4>
+                                    <p>Techno marocaine</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">21:00</div>
+                                <div class="artist-info">
+                                    <h4>Nina Kraviz</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">23:00</div>
+                                <div class="artist-info">
+                                    <h4>Adam Beyer</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">01:00</div>
+                                <div class="artist-info">
+                                    <h4>Charlotte de Witte</h4>
+                                    <p>Techno</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">03:00</div>
+                                <div class="artist-info">
+                                    <h4>Local Techno</h4>
+                                    <p>Underground</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Acoustic Garden -->
+                    <div class="stage-column">
+                        <h3 class="stage-title">Acoustic Garden</h3>
+                        <div class="schedule-items">
+                            <div class="schedule-item">
+                                <div class="time">19:00</div>
+                                <div class="artist-info">
+                                    <h4>Maalem Hmida Boussou</h4>
+                                    <p>Gnaoua</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">21:00</div>
+                                <div class="artist-info">
+                                    <h4>Maalem Mahmoud Guinia</h4>
+                                    <p>Gnaoua</p>
+                                </div>
+                            </div>
+                            
+                            <div class="schedule-item">
+                                <div class="time">23:00</div>
+                                <div class="artist-info">
+                                    <h4>Fusion Band</h4>
+                                    <p>Gnaoua Fusion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section" style="padding: 4rem 0; background: var(--dark-grey);">
+        <div class="container">
+            <h2 class="section-title">Informations Pratiques</h2>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Horaires</h3>
+                    <p>Ouverture : 18h00<br>Fermeture : 06h00</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>3 Scènes</h3>
+                    <p>Main Stage, Electro Dome<br>Acoustic Garden</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>50+ Artistes</h3>
+                    <p>Electro, Techno, Gnaoua<br>Trap, Fusion</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Restauration</h3>
+                    <p>Food trucks variés<br>Boissons disponibles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/image copy 16.png" alt="VibeStage">
+                        <span>VibeStage</span>
+                    </div>
+                    <p>Votre expérience festival ultime au Maroc</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Festival</h3>
+                    <ul>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="artists.html">Line-up</a></li>
+                        <li><a href="schedule.html">Programme</a></li>
+                        <li><a href="location.html">Lieu</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Billets</h3>
+                    <ul>
+                        <li><a href="tickets.html">Acheter</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="experience.html">Expérience</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@vibestage.ma</p>
+                    <p><i class="fas fa-phone"></i> +212 5 24 12 34 56</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Marrakech, Maroc</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 VibeStage. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Day Navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const dayBtns = document.querySelectorAll('.day-btn');
+            const daySchedules = document.querySelectorAll('.day-schedule');
+            
+            dayBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const day = this.getAttribute('data-day');
+                    
+                    // Remove active class from all buttons and schedules
+                    dayBtns.forEach(b => b.classList.remove('active'));
+                    daySchedules.forEach(s => s.classList.remove('active'));
+                    
+                    // Add active class to clicked button and corresponding schedule
+                    this.classList.add('active');
+                    document.getElementById(day).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

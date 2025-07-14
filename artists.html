@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line-Up - VibeStage 2025</title>
+    <meta name="description" content="Découvrez le line-up complet de VibeStage 2025 - 50+ artistes de musique électronique, techno, gnaoua et plus encore.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Anton&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/image copy 16.png" alt="VibeStage" class="logo-img">
+                    <span class="logo-text">VibeStage</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="artists.html" class="nav-link active">Line-Up</a></li>
+                    <li><a href="schedule.html" class="nav-link">Programme</a></li>
+                    <li><a href="tickets.html" class="nav-link">Billets</a></li>
+                    <li><a href="experience.html" class="nav-link">Expérience</a></li>
+                    <li><a href="location.html" class="nav-link">Lieu</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-cta">
+                    <a href="tickets.html" class="btn btn-primary">Acheter Billet</a>
+                </div>
+                
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 60vh;">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="title-main">Line-Up 2025</span>
+                    <span class="title-sub">50+ Artistes Exceptionnels</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Découvrez les artistes qui vont faire vibrer Marrakech pendant 3 jours
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filtres -->
+    <section class="filters" style="padding: 2rem 0; background: var(--dark-grey);">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="headliner">Headliners</button>
+                <button class="filter-btn" data-filter="techno">Techno</button>
+                <button class="filter-btn" data-filter="electro">Electro</button>
+                <button class="filter-btn" data-filter="gnaoua">Gnaoua</button>
+                <button class="filter-btn" data-filter="trap">Trap</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artists Grid -->
+    <section class="artists-section" style="padding: 4rem 0;">
+        <div class="container">
+            <div class="artists-grid">
+                <!-- Headliners -->
+                <div class="artist-card" data-category="headliner techno">
+                    <div class="artist-image">
+                        <img src="images/image copy 4.png" alt="DJ Snake">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">DJ Snake</h3>
+                        <p class="artist-genre">Electro / Trap</p>
+                        <p class="artist-stage">Main Stage - Vendredi 22h</p>
+                        <div class="artist-bio">
+                            <p>Le roi du trap français, DJ Snake a révolutionné la musique électronique avec ses hits internationaux.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="headliner techno">
+                    <div class="artist-image">
+                        <img src="images/image copy.png" alt="Amelie Lens">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Amelie Lens</h3>
+                        <p class="artist-genre">Techno</p>
+                        <p class="artist-stage">Electro Dome - Samedi 23h</p>
+                        <div class="artist-bio">
+                            <p>Reine de la techno belge, Amelie Lens transporte son public dans des dimensions sonores uniques.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="headliner gnaoua">
+                    <div class="artist-image">
+                        <img src="images/image copy 2.png" alt="Hamid El Kasri">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Hamid El Kasri</h3>
+                        <p class="artist-genre">Gnaoua Fusion</p>
+                        <p class="artist-stage">Acoustic Garden - Dimanche 20h</p>
+                        <div class="artist-bio">
+                            <p>Maître de la musique gnaoua, Hamid El Kasri fusionne tradition et modernité dans un spectacle unique.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="headliner techno">
+                    <div class="artist-image">
+                        <img src="images/image copy 3.png" alt="Charlotte de Witte">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Charlotte de Witte</h3>
+                        <p class="artist-genre">Techno</p>
+                        <p class="artist-stage">Main Stage - Samedi 01h</p>
+                        <div class="artist-bio">
+                            <p>Pionnière de la techno moderne, Charlotte de Witte repousse les limites du genre avec sa signature unique.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Autres artistes -->
+                <div class="artist-card" data-category="techno">
+                    <div class="artist-image">
+                        <img src="images/image copy 7.png" alt="Nina Kraviz">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Nina Kraviz</h3>
+                        <p class="artist-genre">Techno</p>
+                        <p class="artist-stage">Electro Dome - Vendredi 02h</p>
+                        <div class="artist-bio">
+                            <p>DJ et productrice russe, Nina Kraviz apporte sa vision avant-gardiste de la techno.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="electro">
+                    <div class="artist-image">
+                        <img src="images/image copy 6.png" alt="Gesaffelstein">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Gesaffelstein</h3>
+                        <p class="artist-genre">Electro / Industrial</p>
+                        <p class="artist-stage">Main Stage - Samedi 00h</p>
+                        <div class="artist-bio">
+                            <p>Le maître français de l'électro industrielle, Gesaffelstein crée des atmosphères sombres et hypnotiques.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="gnaoua">
+                    <div class="artist-image">
+                        <img src="images/image copy 5.png" alt="Maalem Mahmoud Guinia">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Maalem Mahmoud Guinia</h3>
+                        <p class="artist-genre">Gnaoua</p>
+                        <p class="artist-stage">Acoustic Garden - Vendredi 21h</p>
+                        <div class="artist-bio">
+                            <p>Héritier d'une longue tradition gnaoua, Mahmoud Guinia perpétue l'art ancestral de la musique sacrée.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="trap">
+                    <div class="artist-image">
+                        <img src="images/image copy 10.png" alt="Marshmello">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Marshmello</h3>
+                        <p class="artist-genre">Trap / Future Bass</p>
+                        <p class="artist-stage">Main Stage - Dimanche 23h</p>
+                        <div class="artist-bio">
+                            <p>Le mystérieux producteur américain Marshmello apporte sa signature mélodique et énergique.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="techno">
+                    <div class="artist-image">
+                        <img src="images/image copy 11.png" alt="Adam Beyer">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Adam Beyer</h3>
+                        <p class="artist-genre">Techno</p>
+                        <p class="artist-stage">Electro Dome - Samedi 01h</p>
+                        <div class="artist-bio">
+                            <p>Fondateur de Drumcode, Adam Beyer est une figure légendaire de la scène techno mondiale.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="electro">
+                    <div class="artist-image">
+                        <img src="images/image copy 13.png" alt="Justice">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Justice</h3>
+                        <p class="artist-genre">Electro / French Touch</p>
+                        <p class="artist-stage">Main Stage - Vendredi 00h</p>
+                        <div class="artist-bio">
+                            <p>Duo français légendaire, Justice révolutionne l'électro avec leur approche rock et disco.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="gnaoua">
+                    <div class="artist-image">
+                        <img src="images/image copy 14.png" alt="Maalem Hmida Boussou">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Maalem Hmida Boussou</h3>
+                        <p class="artist-genre">Gnaoua</p>
+                        <p class="artist-stage">Acoustic Garden - Samedi 19h</p>
+                        <div class="artist-bio">
+                            <p>Maître gnaoua de Essaouira, Hmida Boussou transmet la sagesse ancestrale à travers la musique.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artist-card" data-category="trap">
+                    <div class="artist-image">
+                        <img src="images/image copy 15.png"Skrillex">
+                        <div class="artist-overlay">
+                            <a href="artist-details.html" class="btn btn-small">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="artist-info">
+                        <h3 class="artist-name">Skrillex</h3>
+                        <p class="artist-genre">Trap / Dubstep</p>
+                        <p class="artist-stage">Main Stage - Samedi 22h</p>
+                        <div class="artist-bio">
+                            <p>Pionnier du dubstep américain, Skrillex continue de repousser les limites de la musique électronique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/image copy 16.png" alt="VibeStage">
+                        <span>VibeStage</span>
+                    </div>
+                    <p>Votre expérience festival ultime au Maroc</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Festival</h3>
+                    <ul>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="artists.html">Line-up</a></li>
+                        <li><a href="schedule.html">Programme</a></li>
+                        <li><a href="location.html">Lieu</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Billets</h3>
+                    <ul>
+                        <li><a href="tickets.html">Acheter</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="experience.html">Expérience</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@vibestage.ma</p>
+                    <p><i class="fas fa-phone"></i> +212 5 24 12 34 56</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Marrakech, Maroc</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 VibeStage. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Filtres pour les artistes
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const artistCards = document.querySelectorAll('.artist-card');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Retirer la classe active de tous les boutons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Ajouter la classe active au bouton cliqué
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    artistCards.forEach(card => {
+                        if (filter === 'all') {
+                            card.style.display = 'block';
+                        } else {
+                            const categories = card.getAttribute('data-category').split(' ');
+                            if (categories.includes(filter)) {
+                                card.style.display = 'block';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

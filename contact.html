@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - VibeStage 2025</title>
+    <meta name="description" content="Contactez l'équipe VibeStage - Formulaire de contact et informations.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Anton&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/image copy 16.png" alt="VibeStage" class="logo-img">
+                    <span class="logo-text">VibeStage</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="artists.html" class="nav-link">Line-Up</a></li>
+                    <li><a href="schedule.html" class="nav-link">Programme</a></li>
+                    <li><a href="tickets.html" class="nav-link">Billets</a></li>
+                    <li><a href="experience.html" class="nav-link">Expérience</a></li>
+                    <li><a href="location.html" class="nav-link">Lieu</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                
+                <div class="nav-cta">
+                    <a href="tickets.html" class="btn btn-primary">Acheter Billet</a>
+                </div>
+                
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 60vh;">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="title-main">Contact</span>
+                    <span class="title-sub">Nous sommes là pour vous</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Une question ? Un problème ? Contactez notre équipe
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" style="padding: 6rem 0;">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2 class="section-title">Informations de Contact</h2>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>contact@vibestage.ma</p>
+                                <p>info@vibestage.ma</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Téléphone</h3>
+                                <p>+212 5 24 12 34 56</p>
+                                <p>+212 6 12 34 56 78 (Urgences)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Adresse</h3>
+                                <p>123 Avenue Mohammed V</p>
+                                <p>40000 Marrakech, Maroc</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Horaires</h3>
+                                <p>Lundi - Vendredi : 9h00 - 18h00</p>
+                                <p>Samedi : 10h00 - 16h00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Suivez-nous</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2 class="section-title">Envoyez-nous un message</h2>
+                    
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choisissez un sujet</option>
+                                <option value="billets">Questions sur les billets</option>
+                                <option value="artistes">Informations artistes</option>
+                                <option value="logistique">Logistique et transport</option>
+                                <option value="partenariat">Partenariat commercial</option>
+                                <option value="presse">Presse et médias</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Décrivez votre demande..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <span class="checkmark"></span>
+                                Je souhaite recevoir la newsletter VibeStage
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Quick -->
+    <section class="faq-quick" style="padding: 4rem 0; background: var(--dark-grey);">
+        <div class="container">
+            <h2 class="section-title">Questions Fréquentes</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Comment acheter mes billets ?</h3>
+                    <p>Vous pouvez acheter vos billets directement sur notre site dans la section "Billets" ou nous contacter par téléphone.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Puis-je annuler mon billet ?</h3>
+                    <p>Les billets sont remboursables jusqu'à 30 jours avant l'événement. Contactez-nous pour plus d'informations.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Y a-t-il des navettes ?</h3>
+                    <p>Oui, des navettes gratuites partent du centre-ville de Marrakech toutes les 30 minutes.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Puis-je contacter les artistes ?</h3>
+                    <p>Pour les demandes de presse ou partenariats avec les artistes, contactez-nous directement.</p>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <a href="faq.html" class="btn btn-secondary">Voir toutes les FAQ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" style="padding: 4rem 0;">
+        <div class="container">
+            <h2 class="section-title">Notre Bureau</h2>
+            <p class="section-subtitle">Venez nous rencontrer à Marrakech</p>
+            
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Carte Google Maps</h3>
+                    <p>123 Avenue Mohammed V, Marrakech</p>
+                    <a href="https://maps.google.com" target="_blank" class="btn btn-secondary">Voir sur Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="VibeStage">
+                        <span>VibeStage</span>
+                    </div>
+                    <p>Votre expérience festival ultime au Maroc</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Festival</h3>
+                    <ul>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="artists.html">Line-up</a></li>
+                        <li><a href="schedule.html">Programme</a></li>
+                        <li><a href="location.html">Lieu</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Billets</h3>
+                    <ul>
+                        <li><a href="tickets.html">Acheter</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="experience.html">Expérience</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@vibestage.ma</p>
+                    <p><i class="fas fa-phone"></i> +212 5 24 12 34 56</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Marrakech, Maroc</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 VibeStage. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Contact Form
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Récupérer les données du formulaire
+                const formData = new FormData(this);
+                const data = Object.fromEntries(formData);
+                
+                // Simulation d'envoi
+                alert('Message envoyé ! Nous vous répondrons dans les plus brefs délais.');
+                
+                // Réinitialiser le formulaire
+                this.reset();
+            });
+        });
+    </script>
+</body>
+</html> 
